@@ -9,12 +9,12 @@ import { StudentsModule } from './students/students.module';
 import { StudentsComponent } from './students/students.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { AboutUsmodule } from './aboutus/aboutus.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AboutusComponent
+    AppComponent
   ],
   imports: [
     HeaderModule,
@@ -22,7 +22,8 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     FooterModule,
     BrowserModule,
     StudentsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AboutUsmodule
   ],
   providers: [],
   bootstrap: [AppComponent]
