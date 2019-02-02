@@ -10,6 +10,7 @@ import { StudentsComponent } from './students/students.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { AboutUsmodule } from './aboutus/aboutus.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { AboutUsmodule } from './aboutus/aboutus.module';
     BrowserModule,
     StudentsModule,
     AppRoutingModule,
-    AboutUsmodule
+    AboutUsmodule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
