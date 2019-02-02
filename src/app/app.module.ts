@@ -8,11 +8,13 @@ import { FooterModule } from './footer/footer.module';
 import { StudentsModule } from './students/students.module';
 import { StudentsComponent } from './students/students.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AboutusComponent } from './aboutus/aboutus.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AboutusComponent
   ],
   imports: [
     HeaderModule,
