@@ -8,7 +8,8 @@ import { StudentsModule } from '../students/students.module';
   declarations: [MainComponent],
   imports: [
     CommonModule,
-  StudentsModule  ],
+    StudentsModule
+],
   exports:[
 MainComponent
 

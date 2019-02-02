@@ -6,6 +6,7 @@ import { HeaderModule } from './header/header.module';
 import { MainModule } from './main/main.module';
 import { FooterModule } from './footer/footer.module';
 import { StudentsModule } from './students/students.module';
+import { StudentsComponent } from './students/students.component';
 
 
 @NgModule({
