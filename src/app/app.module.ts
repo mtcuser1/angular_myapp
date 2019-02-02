@@ -7,6 +7,7 @@ import { MainModule } from './main/main.module';
 import { FooterModule } from './footer/footer.module';
 import { StudentsModule } from './students/students.module';
 import { StudentsComponent } from './students/students.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { StudentsComponent } from './students/students.component';
     MainModule,
     FooterModule,
     BrowserModule,
-    StudentsModule
+    StudentsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
